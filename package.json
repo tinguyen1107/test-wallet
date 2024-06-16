@@ -9,16 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gala-chain/api": "^1.1.24",
+    "@gala-chain/connect": "^1.1.24",
+    "@types/secp256k1": "^4.0.6",
+    "ethers": "^6.13.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "secp256k1": "^5.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
   }
 }
